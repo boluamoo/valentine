@@ -34,6 +34,10 @@ okay.addEventListener('click', function () {
 yes2.addEventListener('click', function () {
  if (main.innerText == 'Will you be my valentine?'){
     main.innerText = 'yayyyyyyyyy 🥳'
+    okay.style.display = 'none'
+    yes.style.display = 'none'
+    yes2.style.display = 'none'
+    no.style.display = 'none'
  } else {
     main.innerText = 'Will you be my valentine?'
  }
