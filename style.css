@@ -1,0 +1,24 @@
+body {
+    background-color: antiquewhite;
+}
+
+.section {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+button {
+    font-size: 1.4rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-left: 5px;
+}
